@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="current-item-container" class="current-item-container">
+            <h2>Selected item</h2>
+            <div id="current-item">No item selected</div>
+        </div>
+        <div id="colors-container" class="colors-container">
+            <h2>Colors</h2>
+            <img id="white-circle" class="color-circle paint-items" src="public/assets/icons/circle.svg" alt="SVG Image">
+            <img id="blue-circle" class="color-circle paint-items" src="public/assets/icons/circleBlue.svg" alt="SVG Image">
+            <img id="brown-circle" class="color-circle paint-items" src="public/assets/icons/circleBrown.svg" alt="SVG Image">
+            <img id="green-circle" class="color-circle paint-items" src="public/assets/icons/circleGreen.svg" alt="SVG Image">
+            <img id="grey-circle" class="color-circle paint-items" src="public/assets/icons/circleGrey.svg" alt="SVG Image">
+            <img id="black-circle" class="color-circle paint-items" src="public/assets/icons/circleNoir.svg" alt="SVG Image">
+            <img id="orange-circle" class="color-circle paint-items" src="public/assets/icons/circleOrange.svg" alt="SVG Image">
+            <img id="red-circle" class="color-circle paint-items" src="public/assets/icons/circleRed.svg" alt="SVG Image">
+            <img id="yellow-circle" class="color-circle paint-items" src="public/assets/icons/circleYellow.svg" alt="SVG Image">
+        </div>
+        <div id="tools-container" class="tools-container">
+            <h2>Tools</h2>
+            <img id="line-tool" class="tool paint-items" src="public/assets/icons/line.svg" alt="SVG Image">
+            <img id="pencil-tool" class="tool paint-items" src="public/assets/icons/pencil.svg" alt="SVG Image">
+            <img id="rubber-tool" class="tool paint-items" src="public/assets/icons/square.svg" alt="SVG Image">
+        </div>
+        <canvas id="canvas" class="canvas-container"></canvas>
+        <div class="btn-container">
+            <button id="clear-all-btn">Clear all</button>
+        </div>
+    </div>
+
+    <script src="public/js/Palette.js"></script>
+    <script src="public/js/Canvas.js"></script>
+</body>
+</html>
